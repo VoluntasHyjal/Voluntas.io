@@ -37,7 +37,7 @@ export const PLAYERS_ROSTER_2 = [
 ]
 
 export const LANG = {
-    CURRENT_PROGRESS_BOSS: {
+    BOSS: {
         ['Eranog']: 'Éranog',
         ['Terros']: 'Terros',
         ['The Primal Council']: 'Le Conseil primordial',
