@@ -14,7 +14,7 @@ nav > a, .dropdown > a {
 
 .dropdown {
     position: fixed;
-    font-size: 1.6em;
+    font-size: 2rem;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 2;
@@ -41,8 +41,8 @@ nav > a:hover {
     position: absolute;
     z-index: 1;
     bottom: 0px;
-    height: 260px;
-    background-color: rgba(0, 0, 0, 0.158);
+    margin-bottom: 3em;
+    background-color: rgba(0, 0, 0, 0.363);
     border-radius: 15px;
 }
 
@@ -54,5 +54,5 @@ nav > a:hover {
 .dropdown .contents > a {
     display: block;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2rem;
 }
