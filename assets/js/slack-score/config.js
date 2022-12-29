@@ -35,3 +35,39 @@ export const PLAYERS_ROSTER_2 = [
     // {name: 'tyänna', role: 'dps'},
     // {name: 'universis', role: 'dps'},
 ]
+
+export const LANG = {
+    CURRENT_PROGRESS_BOSS: {
+        ['Eranog']: 'Éranog',
+        ['Terros']: 'Terros',
+        ['The Primal Council']: 'Le Conseil primordial',
+        ['Sennarth the Cold Breath']: 'Sennarth, la Glaciale',
+        ['Dathea Ascended']: 'Dathéa, transcendée',
+        ['Kurog Grimtotem']: 'Kurog Totem-Sinistre',
+        ['Broodkeeper Diurna']: 'Garde-couvée Diurna',
+        ['raszageth-the-stormeater']: 'Raszageth la Mage-tempêtes',
+        // ['Dathea, Ascended']: '',
+        // ['Stone Legion Generals']: '',
+        // ['Sire Denathrius']: ''
+    },
+    PLAYER_CLASS: {
+        ['Chasseur']: 'hunter',
+        ['Démoniste']: 'warlock',
+        ['Chevalier de la mort']: 'death-knight',
+        ['Chasseur de démons']: 'demon-hunter',
+        ['Druide']: 'druid',
+        ['Mage']: 'mage',
+        ['Moine']: 'monk',
+        ['Voleur']: 'rogue',
+        ['Chaman']: 'shaman',
+        ['Guerrier']: 'warrior',
+        ['Paladin']: 'paladin',
+        ['Évocateur']: 'evoker',
+        ['Prêtre']: 'priest'
+    },
+    PLAYER_ROLE: {
+        ['tank']: 'Tank',
+        ['dps']: 'Dégat',
+        ['heal']: 'Soin'
+    }
+}
