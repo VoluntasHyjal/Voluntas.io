@@ -1,6 +1,7 @@
 import { createPlayerElement, handleClickOnPlayer } from './player.js'
 import { formatDate } from '../core/date.js'
 import { CURRENT_PROGRESS_BOSS } from '../core/constants.js'
+import { LANG } from '../config.js';
 
 let filters = {
     role: 'any',
@@ -56,9 +57,9 @@ const renderRaidProgress = ({ normal, heroic, mythic }, parent) => {
 const renderRaidProgressMode = (parent, dates) => {
     [].slice.call(parent.getElementsByTagName('h5')).forEach((node, index) => {
         if (dates[index]) {
-            node.innerHTML = `${CURRENT_PROGRESS_BOSS[index]} (${formatDate(dates[index])})`
+            node.innerHTML = `${LANG.BOSS[CURRENT_PROGRESS_BOSS[index]]} (${formatDate(dates[index])})`
         } else {
-            node.innerHTML = `${CURRENT_PROGRESS_BOSS[index]}`
+            node.innerHTML = `${LANG.BOSS[CURRENT_PROGRESS_BOSS[index]]}`
         }
         node.className += dates[index] ? 'boss-down' : ''
     })
