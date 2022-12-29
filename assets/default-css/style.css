@@ -146,32 +146,48 @@ Author URL: http://w3layouts.com
     backdrop-filter: blur(7px);
 	margin: 0;
 }
+
 .services h3,.gallery h3,.updates h3,.team h3,.wthree-subscribe h3,.contact h3{
 	text-align:center;
 }
-.services-grid{
-	padding:0;
+
+.services-grid {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
 }
-.services-grid-left{
+
+.services-grid .grid-perso {
+	margin: auto 2em;
+}
+
+.services-grid-left {
 	text-align:right;
 }
-.services-grid-left h4{
+
+.services-grid-left h4 {
     text-transform: capitalize;
     font-size: 1.9em;
     color: #000000;
     margin: 0 0 1em;
     font-family: 'Poppins', sans-serif;
 }
-.services-grid-left p{
+
+.services-grid-left p {
 	color: rgb(255, 255, 255);
     line-height: 2em;
     font-size: 1em;
 	text-shadow: 2px 0 0 rgb(2, 2, 2), 2px 2px 0 rgb(7, 7, 7), 0 2px 0 rgb(10, 10, 10), -2px 2px 0 rgb(7, 7, 7), -2px 0 0 rgb(14, 13, 13), -2px -2px 0 rgb(7, 7, 7), 0rgb(5, 5, 5)x 0 rgb(12, 12, 12), 2px -2px 0 rgb(10, 10, 10);
 }
-.agileinfo-services-grids{
+
+/* .agileinfo-services-grids {
     margin: 5em 0 0 0;
-}
-.services-grid-right-grid{
+} */
+
+.services-grid-right-grid {
     width: 80px;
 	height: 80px;
     background: #f5f5f5;
