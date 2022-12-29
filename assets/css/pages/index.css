@@ -96,7 +96,6 @@
     grid-template-columns: 50px /*role*/70px/*milieu */0px/*class*/; 
     grid-template-rows: 80px /* 1 */90px /* 2*/40px/* 3eme */ 20px/* 4*/;
     grid-column-gap: 10px;
-    grid-row-gap: px;
 }
     
 #perso { grid-area: 1 / 2 / 2 / 3; }
