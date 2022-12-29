@@ -87,6 +87,8 @@
 .flexboxperso {
     display: flex;
     position: relative;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
     margin-bottom: 100px;
 }
