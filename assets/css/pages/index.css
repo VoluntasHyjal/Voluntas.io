@@ -151,13 +151,13 @@
     font-family: Arial, Helvetica, sans-serif !important;
     text-align: center;
     align-items: center;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     text-shadow: 2px 2px 2px #0000008e;
 }
 
 #slcore p {
     font-family: lifecraft !important;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     text-align: center;
     text-shadow: 2px 2px 2px #0505058e;
 }
