@@ -59,7 +59,7 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
       <p>${ilvl}</p>
   </div>
   <div id="playerroless">
-      <img src="./Source/Img/${role}.png" alt="" title="${linksrole[role]}"/>
+      <img src="/Source/Img/${role}.png" alt="" title="${linksrole[role]}"/>
   </div>
   </div>
 </div>
