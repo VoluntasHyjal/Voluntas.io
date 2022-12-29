@@ -5,20 +5,29 @@ nav {
     align-items: center;
 }
 
-nav > a, nav .dropdown > a {
+nav > a, .dropdown > a {
     margin: auto 1em;
     font-family: lifecraft;
     font-size: 2em;
     max-height: 40px;
 }
 
-nav .dropdown {
-    position: relative;
+.dropdown {
+    position: fixed;
+    font-size: 1.6em;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    bottom: 2px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 50px;
+    border: 2px solid black;
 }
 
 nav > a:hover,
-nav .dropdown > a:hover,
-nav .dropdown .contents > a:hover {
+.dropdown > a:hover,
+.dropdown .contents > a:hover {
     text-decoration: none;
     color: var(--color-hover-a);
 }
@@ -27,20 +36,23 @@ nav > a:hover {
     border-bottom: 1px solid var(--color1);
 }
 
-nav .dropdown .contents {
+.dropdown .contents {
     display: none;
     position: absolute;
     z-index: 1;
+    bottom: 0px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 15px;
 }
 
-nav .dropdown:hover .contents {
+.dropdown:hover .contents {
     display: block;
     width: 100%;
 }
 
-nav .dropdown .contents > a {
+.dropdown .contents > a {
     display: block;
     text-align: center;
     font-size: 1.5em;
-    white-space: nowrap;
 }
