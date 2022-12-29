@@ -1,28 +1,6 @@
-import { ILVL_THRESHOLD, SLACK_SCORE_THRESHOLD } from '../config.js';
+import { ILVL_THRESHOLD, SLACK_SCORE_THRESHOLD, LANG } from '../config.js';
 import { capitalize, slug } from '../core/string.js';
 import { ENCHANTABLE_SLOTS } from '../core/constants.js';
-
-const links = {
-    ['Chasseur']: 'hunter',
-    ['Démoniste']: 'warlock',
-    ['Chevalier de la mort']: 'death-knight',
-    ['Chasseur de démons']: 'demon-hunter',
-    ['Druide']: 'druid',
-    ['Mage']: 'mage',
-    ['Moine']: 'monk',
-    ['Voleur']: 'rogue',
-    ['Chaman']: 'shaman',
-    ['Guerrier']: 'warrior',
-    ['Paladin']: 'paladin',
-    ['Évocateur']: 'evoker',
-    ['Prêtre']: 'priest'
-};
-
-const linksrole = {
-    ['tank']: 'Tank',
-    ['dps']: 'Dégat',
-    ['heal']: 'Soin'
-};
 
 export const createPlayerElement = ({ name, role, equipment, renders, profile }) => {
     const { class: playerClass, title } = profile;
@@ -48,7 +26,7 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
                         </a>
                     </div>
                     <div id="classplayer">
-                        <a href ="https://worldofwarcraft.com/fr-fr/game/classes/${links[playerClass]}" target="_blank">
+                        <a href ="https://worldofwarcraft.com/fr-fr/game/classes/${LANG.PLAYER_CLASS[playerClass]}" target="_blank">
                             <img class="taille" src="./assets/images/player_class/${playerClass.toLowerCase()}.png" alt="playerClass" title="${playerClass}" />
                         </a>
                     </div>
@@ -59,7 +37,7 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
                         <p>${ilvl}</p>
                     </div>
                     <div id="playerroless">
-                        <img src="./assets/images/player_role/${role}.png" alt="role" title="${linksrole[role]}" />
+                        <img src="./assets/images/player_role/${role}.png" alt="role" title="${LANG.PLAYER_ROLE[role]}" />
                     </div>
                 </div>
             </div>
