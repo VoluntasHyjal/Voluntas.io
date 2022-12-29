@@ -14,7 +14,7 @@ nav > a, .dropdown > a {
 /* bare deroulante */
 .dropdown {
     position: fixed;
-    font-size: 2rem;
+    font-size: 1.8rem;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 2;
@@ -41,7 +41,7 @@ nav > a:hover {
     position: absolute;
     z-index: 1;
     bottom: 0px;
-    margin-bottom: 3em;
+    margin-bottom: 2.6em;
     background-color: rgba(0, 0, 0, 0.363);
     border-radius: 15px;
 }
@@ -54,5 +54,5 @@ nav > a:hover {
 .dropdown .contents > a {
     display: block;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
