@@ -8,7 +8,7 @@ export const CURRENT_PROGRESS_BOSS = [
     'Kurog Grimtotem',
     'Broodkeeper Diurna',
     'Dathea Ascended',
-    'raszageth-the-stormeater',
+    'Raszageth the-stormeater',
     //'Dathea, Ascended',
     //'Stone Legion Generals',
     //'Sire Denathrius'
