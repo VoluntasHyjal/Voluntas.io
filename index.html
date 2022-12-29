@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="title" content="Voluntas" />
+		<meta name="description" content="Best twerk guild EU" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Voluntas wow world of warcraft hyjal" />
+
+		<title>Voluntas</title>
+		<link rel="icon" type="image/png" href="./assets/vulcan_icon.png" />
+
+		<!-- Bootstrap -->
+		<link href="./assets/default-css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+		<!-- CSS: Default -->
+		<link rel="stylesheet" href="./assets/default-css/style.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="./assets/default-css/vulcan.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="./assets/default-css/lightbox.css" />
+
+		<!-- CSS: Custom -->
+		<link rel="stylesheet" href="./assets/css/pages/index.css" />
+
+		<!-- Font-Awesome Icons -->
+		<link href="./assets/default-css/font-awesome.css" rel="stylesheet" />
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css' />
+
+		<!-- Load Scripts -->
+		<script type="application/x-javascript">
+			function hideURLbar(){
+				window.scrollTo(0, 1);
+			}
+
+			addEventListener("load", function() {
+				setTimeout(hideURLbar, 0);
+			}, false);
+		</script>
+
+		<script src="./assets/js/libs/jquery-1.11.1.min.js"></script>
+		<script src="./assets/js/libs/bootstrap.js"></script>
+		<!-- <script src="./assets/js/libs/SmoothScroll.min.js"></script> -->
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event) {
+					event.preventDefault();
+					$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- Background video -->
+		<video id="background-video" autoplay loop muted>
+			<source src="./assets/background.mp4" type="video/mp4">
+		</video>
+
+		<!-- Website logo -->
+		<div class="Titre">
+			<img class="logo" src="./assets/Logo.png" alt="logo" height="100%" />
+		</div>
+
+		<!-- Nav bar -->
+		<nav>
+			<a href="Raidstrat.html">Strats Raids</a>
+			<div class="dropdown">
+				<a href="">Accueil</a>
+				<div class="contents">
+					<a href="#raid-progress">Progres</a>
+					<a href="#place">Charte de Raid</a>
+					<a href="https://discord.gg/6c3wGTFg9n" target="_blank">Discord</a>
+				</div>
+			</div>
+			<a href="https://fr.warcraftlogs.com/guild/reports-list/204045?zone=31&boss=0&difficulty=0&class=Any&spec=Any&keystone=0&kills=0&duration=0">WoW Analyser</a>
+		</nav>
+
+		<!-- Loading -->
+		<div id="progress">
+			<div id="progress-bar"></div>
+			<div id="progress-label">Chargement...</div>
+			<!-- <div id="progress-label">Fetch the slackers...</div> -->
+		</div>
+
+		<!-- Filters -->
+		<div id="filters" class="vulcan-hidden filters" hidden>
+			<div class="row center-block">
+				<div class="col-xs-2">
+					<select id="role-filter" class="form-control">
+						<option value="any">Role</option>
+						<option value="tank">Tank</option>
+						<option value="dps">DPS</option>
+						<option value="heal">Heal</option>
+					</select>
+         		</div>
+				<div class="col-xs-2">
+					<input id="min-mythic-score-filter" class="form-control" type="number" placeholder="Minimum mythic score" />
+				</div>
+				<div class="col-xs-2">
+					<input id="max-mythic-score-filter" class="form-control" type="number" placeholder="Maximum mythic score" />
+				</div>
+				<div class="col-xs-2">
+					<select id="order-filter" class="form-control">
+						<option value="none">Order</option>
+						<option value="slackerFirst">Slacker first (RIO)</option>
+						<option value="pgmFirst">PGM first (RIO)</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<!-- Roster 1 -->
+		<div class="services vulcan-hidden" id="roster_1">
+			<div class="container">
+				<h3>Nos Champions</h3>
+				<div id="roster_1_player_container" class="agileinfo-services-grids"></div>
+			</div>
+		</div>
+
+		<!-- Roster 2 -->
+		<div class="services vulcan-hidden" id="roster_2">
+			<div class="container">
+				<h3></h3>
+				<div id="roster_2_player_container" class="agileinfo-services-grids"></div>
+			</div>
+		</div>
+
+		<!-- Rules & Conditions -->
+    	<div class="rules">
+			<h2>Règles et Conditions</h2>
+			<div class="table">
+				<div class="t1">
+					<button>Ilvl</button>
+					<p class="p2">ILvl minimum 275</p>
+				</div>
+				<div class="empty"></div>
+				<div class="t2">
+					<button> Horaires </button>
+					<p class="p2">Pull à 21h , groupage à partir de 20h30 , fin du raid 23h30. <br> Toutes absence / retard doit être prévenu sur discord</p>
+				</div>
+				<div class="t3">
+					<button> Conso & Enchante </button>
+					<p class="p2">Les banquets sont fourni par la guilde , [Popo a prendre]</p>
+				</div>
+				<div class="t4">
+					<button> Soirs de Raid </button>
+					<p class="p2">Les soirs de Raid sont le Dimanche et Mercredi soir</p>
+				</div>
+				<div class="t5">
+					<button> Strats </button>
+					<p class="p2">Les strats doivent être connus avent le raid ! <br>  Un rappel sera effectué et des ajustements feront faits par le RaidLead <br></p>
+				</div>
+				<div class="t6">
+					<button> Absences & Retards </button>
+					<p class="p2">En cas d'absence prévenir 48h à l'avence minimum via l'outils calendrier. <br> En cas d'asbence non prévenu , votre place ne sera plus réservée. <br> Si vous avez plus de 3 retards non prévenu votre place ne sera plus réservée <br></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- testimonial -->
+		<div class="testimonial jarallax vulcan-hidden" id="raid-progress">
+			<div class="testimonial">
+				<div class="w3-agileits-testimonial">
+					<div class="container">
+						<!-- <h3>Castle Nathria</h3> -->
+						<div class="wthree-testimonial-grid">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides" id="slider3">
+										<li>
+											<div class="testimonial-top">
+												<div class="col-md-12">
+													<h3>Normal Mode</h3>
+												</div>
+												<div class="col-md-12">
+													<label></label>
+												</div>
+												<div class="col-md-4">
+													<h5> Eranog 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Sennarth the Cold Breath 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> The Primal Council 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Kurog Grimtotem 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Terros 0 </h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Broodkeeper Diurna 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Dathea Ascended 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Raszageth the Storm-Eater 0</h5>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="testimonial-top">
+												<div class="col-md-12">
+													<h3>Hard Mode</h3>
+												</div>
+												<div class="col-md-12">
+													<label></label>
+												</div>
+												<div class="col-md-4">
+													<h5> Eranog 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Sennarth the Cold Breath 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> The Primal Council 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Kurog Grimtotem 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Terros 0 </h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Broodkeeper Diurna 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Dathea Ascended 0</h5>
+												</div>
+												<div class="col-md-4 offset-md-4">
+													<h5> Raszageth the Storm-Eater 0</h5>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="testimonial-top">
+												<div class="col-md-12">
+													<h3>Mythic Mode</h3>
+												</div>
+												<div class="col-md-12">
+													<label></label>
+												</div>
+												<div class="col-md-4">
+													<h5> Eranog 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Sennarth the Cold Breath 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> The Primal Council 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Kurog Grimtotem 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Terros 0 </h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Broodkeeper Diurna 0</h5>
+												</div>
+												<div class="col-md-4">
+													<h5> Dathea Ascended 0</h5>
+												</div>
+												<div class="col-md-4 offset-md-4">
+													<h5> Raszageth the Storm-Eater 0</h5>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+									// Slideshow 4
+									$("#slider3").responsiveSlides({
+										auto: false,
+										pager: false,
+										nav: true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function() {
+											$('.events').append("<li>before event fired.</li>");
+										},
+										after: function() {
+											$('.events').append("<li>after event fired.</li>");
+										}
+									});
+								});
+							</script>
+
+							<!--banner Slider starts Here-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal about-modal fade" id="playerModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 id="modal-title" class="modal-title">Détails du joueur</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-6 crop-main">
+								<img id="modal-avatar" src="./assets/playerChar.png" alt="playerChar" class="crop-main-img" />
+							</div>
+							<div class="col-md-6">
+								<p class="title">Enchant Details</p>
+								<div id="modal-enchantments"></div>
+								<p class="title">Métiers</p>
+								<div id="modal-jobs"></div>
+								<p class="title">Progrès mythique</p>
+								<div id="modal-mythic-progress">Bientôt...</div>
+								<p class="title">Raid progress</p>
+								<div id="modal-raid-progress"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="agileits-w3layouts-footer">
+			<div class="container">
+				<div class="agile-copyright">
+					<p>© Copyright 2022 Voluntas. All rights reserved | Design by <b>Deblox</b></p>
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/js/libs/jarallax.js"></script>
+		<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
+
+		<script src="./assets/js/libs/responsiveslides.min.js"></script>
+		<script type="text/javascript" src="./assets/js/libs/move-top.js"></script>
+		<script type="text/javascript" src="./assets/js/libs/easing.js"></script>
+
+		<!-- Scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// var defaults = {
+				// 	containerID: 'toTop', // fading element id
+				// 	containerHoverID: 'toTopHover', // fading element hover id
+				// 	scrollSpeed: 1200,
+				// 	easingType: 'linear'
+				// };
+
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+
+		<script type="module" src="./assets/js/slack-score/main.js"></script>
+	</body>
+</html>
