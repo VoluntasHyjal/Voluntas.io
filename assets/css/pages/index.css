@@ -1,6 +1,15 @@
 @import url('../Voluntas.css');
 @import url('../navigation.css');
-
+@font-face {
+    font-family: immortal ;
+    src: url(../fonts/IMMRTLT_.ttf);
+}
+a:hover {
+    text-decoration: none;
+}
+a {
+    font-family: immortal ;
+}
 .logo {
     display: block;
     height: 30vh;
@@ -115,9 +124,10 @@
 #perso h5 {
     text-align: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-shadow: 2px 2px 2px rgb(5, 0, 0);
     position:absolute;
+    font-family: immortal;
     font-weight: 900;
     bottom: 5px;
     margin: 0;
