@@ -5,11 +5,9 @@ function jzBoxMessage(actual, last) {
 }
 
 $(document).on('keydown', function (event) {
-
     var jzBox = $('#jzBox');
 
     if (jzBox.css('display') == 'block') {
-
         var jzBoxLink = $('.jzBoxLink');
 
         switch (event.keyCode) {
@@ -29,7 +27,6 @@ $(document).on('keydown', function (event) {
 });
 
 $('.jzBoxLink').click(function (event) {
-
     event.stopPropagation();
     event.preventDefault();
 
@@ -37,7 +34,6 @@ $('.jzBoxLink').click(function (event) {
     jzBoxActual = this;
 
     $('#jzBoxTargetImg').attr('src', this.getAttribute('href'));
-
 
     var text = this.getAttribute('title');
     var display = 'block';
@@ -48,8 +44,6 @@ $('.jzBoxLink').click(function (event) {
     }
 
     $('#jzBoxTitle').text(text).css('display', display);
-
-
     $('#jzBox').slideToggle('fast');
 
     var actualId;
@@ -60,7 +54,6 @@ $('.jzBoxLink').click(function (event) {
         }
     });
 
-
     if (images.length == 1) {
         $('#jzBoxMoreItems').css('display', 'none');
     }
@@ -69,9 +62,7 @@ $('.jzBoxLink').click(function (event) {
 });
 
 function jzBoxMove (direction, allImages) {
-
     direction = (direction == 'next') ? 'next' : 'prev';
-
     var actualId;
 
     $.each(allImages, function (index) {
@@ -80,20 +71,15 @@ function jzBoxMove (direction, allImages) {
         }
     });
 
-
     var iterator;
 
     if (direction == 'next') {
-
         iterator = actualId + 1;
 
         if (actualId == allImages.length - 1) {
             iterator = 0;
         }
-
-
     } else if (direction == 'prev') {
-
         iterator = actualId - 1;
 
         if (actualId == 0) {
@@ -107,7 +93,6 @@ function jzBoxMove (direction, allImages) {
         .css('display', 'none')
         .attr('src', newImage.getAttribute('href'))
         .css('display', 'inline');
-
 
     var text = newImage.getAttribute('title');
     var display = 'block';

@@ -49,7 +49,7 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
                     </div>
                     <div id="classplayer">
                         <a href ="https://worldofwarcraft.com/fr-fr/game/classes/${links[playerClass]}" target="_blank">
-                            <img class="taille" src="./Source/Img/${playerClass.toLowerCase()}.png" alt="playerClass" title="${playerClass}" />
+                            <img class="taille" src="./assets/images/player_class/${playerClass.toLowerCase()}.png" alt="playerClass" title="${playerClass}" />
                         </a>
                     </div>
                     <span class="${slackScoreClass}" id="slcore">
@@ -59,7 +59,7 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
                         <p>${ilvl}</p>
                     </div>
                     <div id="playerroless">
-                        <img src="./Source/Img/${role}.png" alt="role" title="${linksrole[role]}" />
+                        <img src="./assets/images/player_role/${role}.png" alt="role" title="${linksrole[role]}" />
                     </div>
                 </div>
             </div>
