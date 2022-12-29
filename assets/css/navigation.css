@@ -11,7 +11,7 @@ nav > a, .dropdown > a {
     font-size: 2em;
     max-height: 40px;
 }
-
+/* bare deroulante */
 .dropdown {
     position: fixed;
     font-size: 2rem;
