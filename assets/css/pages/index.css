@@ -93,8 +93,8 @@
 
 .grid-perso2 {
     display: grid;
-    grid-template-columns: 50px /*role*/70px/*milieu */0px/*class*/; 
-    grid-template-rows: 80px /* 1 */90px /* 2*/40px/* 3eme */ 20px/* 4*/;
+    grid-template-columns: 10px /*role*/150px/*milieu */10px/*class*/; 
+    grid-template-rows: 80px /* 1 */90px /* 2*/30px/* 3eme */ 20px/* 4*/;
     grid-column-gap: 10px;
 }
     
@@ -139,8 +139,8 @@
 }
 
 #playerroless {
-    text-align: right;
-    align-items: right;
+    text-align: left;
+    margin-left: -41px;
 }
 
 #slcore {
