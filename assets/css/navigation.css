@@ -16,6 +16,8 @@ nav > a, .dropdown > a {
     position: relative;
     font-size: 1.6rem;
     z-index: 2;
+    top: -40px;
+    margin-left: -2rem;
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.158);
     border-radius: 50px;
