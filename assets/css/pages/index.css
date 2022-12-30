@@ -1,9 +1,6 @@
 @import url('../Voluntas.css');
 @import url('../navigation.css');
-@font-face {
-    font-family: immortal ;
-    src: url(../fonts/IMMRTLT_.ttf);
-}
+
 a:hover {
     text-decoration: none;
 }
