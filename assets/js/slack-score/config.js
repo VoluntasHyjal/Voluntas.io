@@ -45,7 +45,7 @@ export const LANG = {
         ['Dathea Ascended']: 'Dathéa, transcendée',
         ['Kurog Grimtotem']: 'Kurog Totem-Sinistre',
         ['Broodkeeper Diurna']: 'Garde-couvée Diurna',
-        ['Raszageth the-stormeater']: 'Raszageth la Mage-tempêtes',
+        ['Raszageth the-stormeater']: 'Raszageth la Mange-tempêtes',
         // ['Dathea, Ascended']: '',
         // ['Stone Legion Generals']: '',
         // ['Sire Denathrius']: ''
