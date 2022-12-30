@@ -9,6 +9,7 @@ a:hover {
 }
 a {
     font-family: immortal ;
+    cursor: pointer;
 }
 .logo {
     display: block;
