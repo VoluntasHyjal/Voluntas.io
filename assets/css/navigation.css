@@ -4,14 +4,16 @@ nav {
     text-align: center;
     justify-content: center;
     align-items: center;
-    top: 2%;
+    top: 0%;
     left: 40%;
     z-index: 4;
+    backdrop-filter: blur(3px);
 }
 
 nav > a, .dropdown > a {
     margin: auto 1em;
     font-family: lifecraft;
+    text-shadow: 1px 1px 1px black;
     font-size: 2em;
     max-height: 40px;
     z-index: 4;
@@ -51,4 +53,6 @@ nav > a:hover {
     display: block;
     text-align: center;
     font-size: 1.8rem;
+    text-shadow: 1px 1px 1px black;
+    backdrop-filter: blur(3px);
 }
