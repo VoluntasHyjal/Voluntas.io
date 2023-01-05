@@ -5,8 +5,7 @@ nav {
     justify-content: center;
     align-items: center;
     top: 2%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 40%;
     z-index: 4;
 }
 
