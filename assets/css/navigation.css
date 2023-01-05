@@ -1,8 +1,12 @@
 nav {
-    display: flex;
-    margin: 3em auto;
+    display:inline-flex;
+    position: fixed;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 4;
 }
 
