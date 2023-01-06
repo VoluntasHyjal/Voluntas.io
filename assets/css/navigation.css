@@ -1,18 +1,20 @@
 nav {
-    display:inline-flex;
+    display:flex;
     position: fixed;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     top: 0%;
-    left: 40%;
     z-index: 4;
-    backdrop-filter: blur(3px);
+    font-size: 1.8rem;
+    backdrop-filter: blur(4px);
+    width: 100%;
 }
 
+#movebar {
+    margin-right: 20px;
+    width: 500px;
+}
 nav > a, .dropdown > a {
-    margin: auto 1em;
-    font-family: lifecraft;
+    margin: 0 1em;
+    font-family: lifecraft !important;
     text-shadow: 1px 1px 1px black;
     font-size: 2em;
     max-height: 40px;
@@ -21,9 +23,7 @@ nav > a, .dropdown > a {
 /* bare deroulante */
 .dropdown {
     position: relative;
-    font-size: 1.6rem;
     z-index: 2;
-    margin-left: -2rem;
 }
 
 nav > a:hover,
@@ -33,26 +33,147 @@ nav > a:hover,
     color: var(--color-hover-a);
 }
 
-nav > a:hover {
+.dropdown > a:hover {
     border-bottom: 1px solid var(--color1);
 }
 
 .dropdown .contents {
     display: none;
     position: absolute;
+    top: 100%;
+    left: -275%;
     z-index: 1;
-    margin-bottom: 2.6em;
+    font-size: 1.6rem;
+    margin-bottom: 1.8em;
 }
 
 .dropdown:hover .contents {
     display: block;
     width: 100%;
+    backdrop-filter: blur(3px);
 }
 
 .dropdown .contents > a {
     display: block;
     text-align: center;
-    font-size: 1.8rem;
     text-shadow: 1px 1px 1px black;
     backdrop-filter: blur(3px);
+}
+
+@media screen and (min-width:1801px) {
+    nav {
+        top: 0%;
+        left: 40%;
+        right: 0%;
+        z-index: 4;
+        backdrop-filter: blur(4px);
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:1800px) {
+    nav {
+        top: 0%;
+        left: 26%;
+        right: 2%;
+        font-size: 1.925rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1499px) {
+    nav {
+        top: 0%;
+        left: 26%;
+        right: 26%;
+        font-size: 1.925rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1200px) {
+    nav {
+        top: 0%;
+        left: 18%;
+        right: 18%;
+        font-size: 1.925rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:991px) {
+    nav {
+        top: 0%;
+        left: 14%;
+        right: 14%;
+    }
+    #movebar {
+        margin-right: 20px;
+        width: 500px;
+    }
+}
+@media screen and (max-width:800px) {
+    nav {
+        top: 0%;
+        left: 28%;
+        right: 28%;
+        font-size: .925rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:750px) {
+    nav {
+        top: 0%;
+        left: 25%;
+        right: 25%;
+        font-size: .925rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    nav {
+        top: 0%;
+        left: 23%;
+        right: 23%;
+        font-size: 0.825rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width:597px) {
+    nav {
+        top: 0%;
+        left: 20%;
+        right: 20%;
+        font-size: 0.825rem;
+        width: 100%;
+        margin: 2px 2px 2px 2px;
+    }
+    
+    nav a {
+        margin-right: 100px ;
+    }
+    nav > a, .dropdown > a {
+        margin: 0 10px;
+        font-family: lifecraft !important;
+        text-shadow: 1px 1px 1px black;
+        font-size: 2em;
+        max-height: 40px;
+        z-index: 4;
+    }
+}
+@media screen and (max-width:413px) {
+    nav {
+        top: 0%;
+        left: 10%;
+        right: -10%;
+        font-size: 0.825rem;
+    }
+
+}
+@media screen and (max-width:375px) {
+    nav {
+        top: 0%;
+        left: 5%;
+        right: 5%;
+        font-size: 0.825rem;
+        gap: 0.7em;
+        width: 100%;
+    }
 }

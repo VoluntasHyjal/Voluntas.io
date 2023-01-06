@@ -1432,9 +1432,6 @@ h2 {
 	.services-grid-right-grid span {
 		top: 1.1em;
 	}
-	.callbacks_nav {
-		top: 377px;
-	}
 	.testimonial-top p {
 		width: 100%;
 	}
@@ -1537,9 +1534,6 @@ h2 {
 	}
 	.testimonial-top p {
 		width: 95%;
-	}
-	.callbacks_nav {
-		top: 440px;
 	}
 	.agileits_updates_grid_left h4, .agileits_updates_grid_right h4 {
 		text-align: center;

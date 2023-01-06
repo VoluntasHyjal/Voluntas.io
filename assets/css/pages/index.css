@@ -157,7 +157,12 @@ a {
     .espacelogo{
         height: 50em;
     }
+    .callbacks_nav {
+        top: 90px;
+        left: 5px;
+    }
 }
+
 @media screen and (max-width:1050px) {
     .logo {
         height: 30vh;
@@ -167,5 +172,8 @@ a {
     }
     .espacelogo{
         height: 3em;
+    }
+    .callbacks_nav {
+        top: 90px;
     }
 }    
