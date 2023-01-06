@@ -16,7 +16,6 @@ nav {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     z-index: 4;
-    font-size: 1.8rem;
     backdrop-filter: blur(4px);
 }
 #raidstrat{
@@ -30,13 +29,14 @@ nav {
     margin: 0 1em;
     font-family: lifecraft !important;
     text-shadow: 1px 1px 1px black;
-    font-size: 2rem;
+    font-size: 2.4rem;
     max-height: 40px;
     z-index: 4;
 }
 /* bare deroulante */
 .dropdown {
     position: relative;
+    white-space: nowrap;
     z-index: 2;
 }
 
@@ -55,8 +55,8 @@ nav {
     display: none;
     position: absolute;
     z-index: 1;
-    font-size: 1.6rem;
-    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.2rem;
     height: 100px;
     width: 120px;
 }
@@ -71,5 +71,28 @@ nav {
     text-align: center;
     text-shadow: 1px 1px 1px black;
     backdrop-filter: blur(3px);
+}
+
+@media screen and (min-width:1040px) {
+    nav{
+        grid-area: n2 ;
+        display:grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        z-index: 4;
+        font-size: 1.8rem;
+        backdrop-filter: blur(4px);
+    }
+    
+}
+@media screen and (min-width:1805px) {
+    nav{
+        grid-area: n2 ;
+        display:grid;
+        grid-template-columns: 4fr 1fr 4fr;
+        z-index: 4;
+        font-size: 1.8rem;
+        backdrop-filter: blur(4px);
+    }
+    
 }
 
