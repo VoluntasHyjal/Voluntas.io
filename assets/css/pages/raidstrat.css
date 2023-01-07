@@ -3,12 +3,16 @@
 
 body {
     margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
 iframe {
     position: absolute;
-    width: 100%;
+    width: 90%;
+    top: 5rem;
+    left: 10rem;
+    right: 10rem ;
     height: -webkit-fill-available;
     border-top: 3px solid rgb(0, 110, 187);
 }
