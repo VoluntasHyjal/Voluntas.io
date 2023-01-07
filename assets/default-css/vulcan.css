@@ -16,7 +16,7 @@
 }
 
 .modal-subsection-title {
-  color: black !important;
+  color: rgb(91, 119, 155) !important;
 }
 .crop-main {
   overflow: hidden;
@@ -31,7 +31,7 @@
 
 .modal-body p.title {
   text-transform: uppercase;
-  color: #333;
+  color: rgb(0,110,187);
   font-weight: bold;
 }
 
@@ -42,10 +42,12 @@
 }
 
 .no-slack-enchant {
-  color: #000000 !important;
+  color: #00a2ff !important;
+  text-shadow: 2px 2px 2px black;
 }
 .no-slack-enchant p{
   color: #00A0FF !important;
+  text-shadow: 4px 4px 4px rgb(1, 0, 2);
 }
 
 .boss-down {
@@ -62,10 +64,12 @@
 }
 .run-completed {
   color: var(--vulcan-green) !important;
+  text-shadow: 4px 4px 4px rgb(1, 0, 2);
 }
 
 .run-not-completed {
-  color: var(--vulcan-red) !important;
+  color: darkblue !important;
+  text-shadow: 4px 4px 4px rgb(1, 0, 2);
 }
 
 .chevalier-de-la-mort {

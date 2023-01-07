@@ -813,8 +813,10 @@ a.pa_italic:focus {
 /*-- model --*/
 .modal-header h4 {
     margin: 0;
-    font-size: 1.5em;
-    color: #F44336;
+	text-align: center;
+	font-size: 1.5em;
+    color: rgb(0,147,249);
+	text-shadow: 2px 2px 2px rgba(52, 2, 167, 0.699);
 }
 .agileits-w3layouts-info img {
     width: 100%;
@@ -822,7 +824,7 @@ a.pa_italic:focus {
 .modal-body p{
     margin: 1em 0 0 0;
     font-size: .875em;
-    color: #999999;
+    color: #ff0000;
     line-height: 1.8em;
 }
 /*-- //model --*/
