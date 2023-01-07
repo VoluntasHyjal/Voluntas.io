@@ -12,7 +12,7 @@ Author URL: http://w3layouts.com
 
 /*-- banner --*/
 .banner-dot {
-    background: url(../dott.png)repeat 0px 0px;
+    background: url()repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -94,7 +94,7 @@ Author URL: http://w3layouts.com
     background: none;
 }
 .search form input[type="submit"] {
-    background: url(../search.png) no-repeat center;
+    background: url(../images/GaleryImg/search.png) no-repeat center;
     width: 49px;
     height: 35px;
     border: none;
@@ -390,18 +390,12 @@ img.img-responsive {
 /*-- //gallery --*/
 /*-- testimonial --*/
 .testimonial{
-	background:url(../CN.jpg) no-repeat 0px 0px;
+	background:url(../images/GaleryImg/CN.jpg) no-repeat 0px 0px;
 	background-size:cover;
+	background-position: center;
 	position:relative;
 }
-.w3-agileits-testimonial{
-	background: url(../dott.png)repeat 0px 0px;
-    background-size: 2px;
-    -webkit-background-size: 2px;
-    -moz-background-size: 2px;
-    -o-background-size: 2px;
-    -ms-background-size: 2px;
-}
+
 .jarallax {
     position: relative;
     background-size: cover;
@@ -506,7 +500,7 @@ i.fa.fa-quote-right {
     text-decoration: none;
     width: 40px;
     height: 40px;
-    background: transparent url("../arrows.png") no-repeat right top;
+    background: transparent url("../images/GaleryImg/arrows.png") no-repeat right top;
 }
 .callbacks_nav.next {
     left: auto;
@@ -755,12 +749,12 @@ i.fa.fa-quote-right {
 .nbs-flexisel-nav-left {
     left: 95%;
     top: -25% !important;
-    background: url(../arrows1.png) no-repeat -14px 0px;
+    background: url(../images/GaleryImg/arrows1.png) no-repeat -14px 0px;
 }
 .nbs-flexisel-nav-right {
 	right: 0%;
     top: -25% !important;
-    background: url(../arrows1.png) no-repeat 0px 0px;
+    background: url(../images/GaleryImg/arrows1.png) no-repeat 0px 0px;
 }
 /*--//flexisel--*/
 .pa_italic i {
@@ -1056,7 +1050,7 @@ p.address {
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url(../arrow.png) no-repeat 0px 0px;
+	background: url(../images/GaleryImg/arrow.png) no-repeat 0px 0px;
 	filter: saturate(0.5) drop-shadow(2px 4px 6px black);
 }
 #toTopHover {
