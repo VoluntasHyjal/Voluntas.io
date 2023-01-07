@@ -29,4 +29,5 @@ a {
     top: 0;
     bottom: 0;
     z-index: -1;
+    color: rgba(0, 145, 249, 0.103);
 }
