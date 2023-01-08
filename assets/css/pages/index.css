@@ -16,7 +16,7 @@ a {
     transition: 0s!important;
 }
 .espace .logo [class*="reveal-"]{
-    transform: cubic-bezier(1,.99,.85,1.09);
+    animation: revealAnimation 5s cubic-bezier(1,.99,.85,1.09) both;
 }
 .espacelogo .logo .reveal-1 {
     transition-delay: 1s;
@@ -47,6 +47,8 @@ a {
 }
 .logo {
     grid-area: lg1;
+    height: 50rem;
+    margin-bottom: 55rem;
 }
 .espacelogo .reveal [class*="reveal-"] {
     opacity: 1;
@@ -88,6 +90,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    margin-bottom: 5rem;
 }
 
 .t1 { grid-area: 4 / 1 / 5 / 2; }
