@@ -29,17 +29,6 @@ a {
     transition: 10s;
 }
 
-@keyframes revealAnimation {
-    0% {
-    opacity: 0;
-    transform: translateY(30px);
-    }
-    100% {
-    opacity: 1;
-    transform: translateY(0px);
-    }
-}
-
 .espacelogo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,12 +38,12 @@ a {
     grid-area: lg1;
     height: 50rem;
 }
-.espacelogo .reveal [class*="reveal-"] {
+.espacelogo .reveal [class*="inreveal-"] {
     opacity: 1;
     transform: translateY(30px);
 }
 
-.espacelogo [class*="reveal-"] {
+.espacelogo [class*="inreveal-"] {
     opacity: 0 !important;
     transition: 1s cubic-bezier(.5, 0, 0, 1);
     transition-delay: 10s;
@@ -123,7 +112,6 @@ a {
 #lgd {
     text-decoration: none;
 }
-
 @keyframes revealAnimation {
     0% {
     opacity: 0;
@@ -134,6 +122,7 @@ a {
     transform: translateY(0px);
     }
 }
+
 
 .table button {
     border: 1px solid black;
