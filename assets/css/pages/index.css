@@ -31,7 +31,7 @@ a {
 }
 .logo {
     grid-area: lg1;
-    height: 50rem;
+    height: 50em;
 }
 
 /* Rules & Conditions */
@@ -231,4 +231,4 @@ a {
     .callbacks_nav {
         top: 90px;
     }
-}    
+}   
