@@ -58,6 +58,12 @@
 		</script>
 	</head>
 	<body>
+		<!-- Loading -->
+		<div id="progress">
+			<div id="progress-bar"></div>
+			<div class="pageload" id="progress-label"></div>
+		</div>
+
 		<!-- Background video -->
 		<video id="background-video" autoplay loop muted>
 			<source src="./assets/Video/background.mp4" type="video/mp4">
@@ -77,18 +83,13 @@
 			<a id="raidstrat" href="Raidstrat.html">Strats Raids</a>
 			<a id="logs" href="https://fr.warcraftlogs.com/guild/reports-list/204045?zone=31&boss=0&difficulty=0&class=Any&spec=Any&keystone=0&kills=0&duration=0" target="_blank">Logs</a>
 			<a id="discord" href="https://discord.gg/6c3wGTFg9n" target="_blank">Discord</a>
-									<!-- Bouton Accueil deroulant -->
 		</div>
 		</nav>
 		
 		
 		<!-- espace logo champions -->	
 		<div class="espacelogo">
-		</div>
-		<!-- Loading -->
-		<div id="progress">
-			<div id="progress-bar"></div>
-			<div class="pageload" id="progress-label"></div>
+			<img class="logo" src="../Voluntas.io/assets/images/GaleryImg/Logo.png" alt="">
 		</div>
 
 		<!-- Filters -->
@@ -138,12 +139,12 @@
     	<div class="rules" id="rulenav">
 			<h2>Les bonnes conditions</h2>
 			<div class="table">
-                        <div class="t1">
+                        <div class="t1 reveal-1">
                             <button>Ilvl</button>
                             <p class="p2">L'ilvl minimum a été fixé à 290 (négociable)</p>
-                        </div>
+						</div>
                         <div class="t3">
-                            <button> Enchants & Conso. </button>
+                            <button class="reveal-2"> Enchants & Conso. </button>
                             <p class="p2">Banquets et chaudrons peuvent être fournis par la guilde.<br>Chaque joueur doit avoir sa bouffe, ses flacons, et ses enchants</p>
 				        </div>
                         <div class="t5">
@@ -285,7 +286,6 @@
 							</div>
 
 							<script>
-								// You can also use "$(window).load(function() {"
 								$(function () {
 									// Slideshow 4
 									$("#slider3").responsiveSlides({
@@ -303,15 +303,11 @@
 									});
 								});
 							</script>
-
-							<!--banner Slider starts Here-->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<!-- Modal -->
 		<div class="modal about-modal fade" id="playerModal" tabindex="-1" role="dialog">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -332,7 +328,7 @@
 								<p class="title">Métiers</p>
 								<div id="modal-jobs"></div>
 								<p class="title">Progrès mythique</p>
-								<div id="modal-mythic-progress">Bientôt...</div>
+								<div id="modal-mythic-progress"></div>
 								<p class="title">Raid progress</p>
 								<div id="modal-raid-progress"></div>
 							</div>
@@ -368,13 +364,6 @@
 		<!-- Scrolling icon -->
 		<script type="text/javascript">
 			$(document).ready(function() {
-				// var defaults = {
-				// 	containerID: 'toTop', // fading element id
-				// 	containerHoverID: 'toTopHover', // fading element hover id
-				// 	scrollSpeed: 1200,
-				// 	easingType: 'linear'
-				// };
-
 				$().UItoTop({ easingType: 'easeOutQuart' });
 			});
 		</script>
