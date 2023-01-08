@@ -9,10 +9,9 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
     const ilvlClass = ilvl < ILVL_THRESHOLD ? 'slack-ilvl' : '';
     const slackScoreClass = slackScore > SLACK_SCORE_THRESHOLD ? 'slack-enchant' : 'no-slack-enchant';
 
-    //<span class="cadre ${slug(playerClass)}">${playerClass}</span>
-
+    
     const div = document.createElement('div');
-    div.className += 'grid-perso'
+    div.className += 'grid-perso reveal-4'
     div.innerHTML = `
         <div class="espacetgrid">
             <div class="flexboxperso" id="testt">

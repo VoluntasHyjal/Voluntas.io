@@ -4,6 +4,7 @@ nav {
     grid-template-areas: 
     "n1 n2 n3";
     align-items: center;
+    top: 0;
     position: fixed;
     z-index: 1;
 }
@@ -17,8 +18,9 @@ nav {
     grid-area: n2 ;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    z-index: 4;
+    z-index: 1000;
     backdrop-filter: blur(4px);
+    margin-top: 0 !important;
 }
 
 #raidstrat{

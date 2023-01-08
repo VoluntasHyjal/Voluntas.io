@@ -9,6 +9,7 @@ import {
 import { capitalize } from '../core/string.js'
 import { ENCHANTABLE_SLOTS, CURRENT_DUNGEONS } from '../core/constants.js'
 
+
 export const buildPlayer = async ({ name, role }, token) => ({
     name,
     role,
