@@ -10,21 +10,21 @@ a {
 }
 
 /* logo */                
-.espacelogo .logo .reveal [class="reveal-"] {
+.espacelogo .logo .reveal [class="inreveal-"] {
     opacity: 1!important;
     animation: none!important;
     transition: 0s!important;
 }
-.espace .logo [class*="reveal-"]{
+.espace .logo [class*="inreveal-"]{
     animation: revealAnimation 5s cubic-bezier(1,.99,.85,1.09) both;
 }
-.espacelogo .logo .reveal-1 {
+.espacelogo .logo .inreveal-1 {
     transition-delay: 1s;
 }
-.espacelogo .logo .reveal-2 {
+.espacelogo .logo .inreveal-2 {
     transition-delay: 1s;
 }
-.espacelogo .logo [class="reveal-"] {
+.espacelogo .logo [class="inreveal-"] {
     opacity: 0;
     transition: 10s;
 }
