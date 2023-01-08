@@ -9,7 +9,37 @@ a {
     cursor: pointer;
 }
 
-/* logo */
+/* logo */                
+.espacelogo .logo .reveal [class="reveal-"] {
+    opacity: 1!important;
+    animation: none!important;
+    transition: 0s!important;
+}
+.espace .logo [class*="reveal-"]{
+    transform: cubic-bezier(1,.99,.85,1.09);
+}
+.espacelogo .logo .reveal-1 {
+    transition-delay: 1s;
+}
+.espacelogo .logo .reveal-2 {
+    transition-delay: 1s;
+}
+.espacelogo .logo [class="reveal-"] {
+    opacity: 0;
+    transition: 10s;
+}
+
+@keyframes revealAnimation {
+    0% {
+    opacity: 0;
+    transform: translateY(30px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0px);
+    }
+}
+
 .espacelogo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
