@@ -1,6 +1,9 @@
 @import url('../Voluntas.css');
 @import url('../navigation.css');
 
+.indexclass {
+    overflow: hidden;
+}
 a:hover {
     text-decoration: none;
 }

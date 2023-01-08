@@ -14,6 +14,7 @@ export const renderGuild = ({ rosters, progress }) => {
     document.getElementById('progress').className += 'hidden'
     document.getElementById('roster_1').classList.remove('vulcan-hidden')
     document.getElementById('navid').hidden = false;
+    document.getElementById('indexid').classList.remove('indexclass')
     document.getElementById('roster_2').classList.remove('vulcan-hidden')
     document.getElementById('raid-progress').classList.remove('vulcan-hidden')
     document.getElementById('filters').classList.remove('vulcan-hidden')
