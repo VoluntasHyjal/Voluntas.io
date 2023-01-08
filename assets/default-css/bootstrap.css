@@ -5760,12 +5760,13 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color:  rgba(0, 145, 249, 0.103);
+  backdrop-filter: blur(5px);
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
-  border-radius: 6px;
+  border-radius: 50px;
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
