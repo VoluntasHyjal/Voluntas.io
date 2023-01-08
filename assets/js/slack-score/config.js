@@ -5,7 +5,7 @@ export const LOCALE = 'fr_FR'
 export const CURRENT_PROGRESS = 'vault-of-the-incarnates'
 
 export const BNET_CLIENT_ID = '14daacc6d3b048bcaffe958d978e47b5'
-export const BNET_CLIENT_SECRET = 'xXMzlGT20zqjYTt6ZCREr7enSrTrCGpV'
+export const BNET_CLIENT_SECRET = 'FgeSWpfnikgT8O77WxWslZJFq7pKxYwR'
 
 export const ILVL_THRESHOLD = 390
 export const SLACK_SCORE_THRESHOLD = 3
