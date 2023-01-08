@@ -10,11 +10,6 @@ a {
 }
 
 /* logo */                
-.espacelogo .logo .reveal [class="inreveal-"] {
-    opacity: 1!important;
-    animation: none!important;
-    transition: 0s!important;
-}
 
 .espacelogo .logo .reveal-logo {
     transition-delay: 1s;
@@ -22,29 +17,13 @@ a {
 
 .espacelogo {
     display: grid;
+    position: absolute;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "lg2 lg1 lg3";
 }
 .logo {
     grid-area: lg1;
     height: 50rem;
-}
-
-.espacelogo [class*="inreveal-"] {
-    opacity: 0 !important;
-    transition: 1s cubic-bezier(.5, 0, 0, 1);
-    transition-delay: 10s;
-}
-
-@keyframes inrevealAnimation {
-    0% {
-    opacity: 0;
-    transform: translateY(30px);
-    }
-    100% {
-    opacity: 1;
-    transform: translateY(0px);
-    }
 }
 
 /* Loading */
@@ -73,6 +52,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     margin-bottom: 1rem;
+    margin-top: 15rem;
 }
 
 .t1 { grid-area: 4 / 1 / 5 / 2; }
