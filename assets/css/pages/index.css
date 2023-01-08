@@ -37,7 +37,7 @@ a {
 #progress {
     position:absolute;
     bottom: 0;
-    position: fixed;
+    position: fixed;S
     z-index: 1;
 }
 
@@ -46,24 +46,29 @@ a {
     text-align: center;
 }
 .rules h2 {
-    display: block;
+
     font-family: lifecraft;
     font-size: 8rem;
     color: #00A0FF;
 }
+#lgd {
+    display: grid;
+    position: relative;
+}
 .table {
     display: grid;
-    opacity: 1;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
-.t1 { grid-area: 1 / 1 / 2 / 2; }
-.t2 { grid-area: 1 / 2 / 2 / 3; }
+.t1 { grid-area: 4 / 1 / 5 / 2; }
+.t2 { grid-area: 3 / 1 / 4 / 2; }
 .t3 { grid-area: 2 / 1 / 3 / 2; }
 .t4 { grid-area: 2 / 2 / 3 / 3; }
 .t5 { grid-area: 3 / 2 / 4 / 3; }
-.t6 { grid-area: 3 / 1 / 4 / 2; }
+.t6 { grid-area: 4 / 2 / 5 / 3; }
+.div8 { grid-area: 5 / 2 / 6 / 3; }
+#lgd { grid-area: 1 / 1 / 2 / 3; }
 
 .table .reveal [class*="reveal-"] {
     opacity: 0!important;
@@ -82,6 +87,10 @@ a {
 }
 .table .reveal-3 {
     transition-delay: 8s;
+}
+
+#lgd {
+    text-decoration: none;
 }
 
 @keyframes revealAnimation {
