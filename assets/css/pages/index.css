@@ -8,9 +8,14 @@ a {
     font-family: immortal ;
     cursor: pointer;
 }
-
+/* Loading */
 /* logo */                
-
+/* Loading */
+#progress {
+    position:absolute;
+    bottom: 0;
+    position: fixed;
+}
 .espacelogo .logo .reveal-logo {
     transition-delay: 1s;
 }
@@ -24,13 +29,6 @@ a {
 .logo {
     grid-area: lg1;
     height: 50rem;
-}
-
-/* Loading */
-#progress {
-    position:absolute;
-    bottom: 0;
-    position: fixed;
 }
 
 /* Rules & Conditions */
