@@ -13,19 +13,8 @@ const handleIntersect = function (entries, observer) {
         }
     })
 }
-
+document.documentElement.classlist.add('reveal-loaded')
 const observer = new IntersectionObserver(handleIntersect,options)
 document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
     observer.observe(r)
 })
-
-//$(document).ready(function() {
-    // var defaults = {
-    // 	containerID: 'toTop', // fading element id
-    // 	containerHoverID: 'toTopHover', // fading element hover id
-    // 	scrollSpeed: 1200,
-    // 	easingType: 'linear'
-    // };
-
-  //  $().UItoTop({ easingType: 'easeOutQuart' });
-//});
