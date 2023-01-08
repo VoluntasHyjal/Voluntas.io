@@ -48,7 +48,6 @@ a {
 .logo {
     grid-area: lg1;
     height: 50rem;
-    margin-bottom: 55rem;
 }
 .espacelogo .reveal [class*="reveal-"] {
     opacity: 1;
@@ -90,7 +89,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .t1 { grid-area: 4 / 1 / 5 / 2; }
