@@ -81,10 +81,16 @@ a {
     transition-delay: 4s;
 }
 .reveal-3 {
-    transition-delay: 8s;
+    transition-delay: 2s;
 }
 .reveal-4 {
-    transition-delay: 12s;
+    transition-delay: 4s;
+}
+.reveal-5 {
+    transition-delay: 4s;
+}
+.reveal-6 {
+    transition-delay: 4s;
 }
 
 #lgd {

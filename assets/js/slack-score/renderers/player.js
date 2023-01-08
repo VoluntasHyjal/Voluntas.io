@@ -11,7 +11,7 @@ export const createPlayerElement = ({ name, role, equipment, renders, profile })
 
     
     const div = document.createElement('div');
-    div.className += 'grid-perso reveal-4'
+    div.className += 'grid-perso reveal-6'
     div.innerHTML = `
         <div class="espacetgrid">
             <div class="flexboxperso" id="testt">
