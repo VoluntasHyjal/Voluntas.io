@@ -15,21 +15,12 @@ a {
     animation: none!important;
     transition: 0s!important;
 }
-.espace .logo [class*="inreveal-"]{
-    animation: revealAnimation 5s cubic-bezier(1,.99,.85,1.09) both;
-}
-.espacelogo .logo .inreveal-1 {
+
+.espacelogo .logo .reveal-logo {
     transition-delay: 1s;
-}
-.espacelogo .logo .inreveal-2 {
-    transition-delay: 1s;
-}
-.espacelogo .logo [class="inreveal-"] {
-    opacity: 0;
-    transition: 10s;
 }
 
-.espacelogo{
+.espacelogo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "lg2 lg1 lg3";
@@ -38,26 +29,29 @@ a {
     grid-area: lg1;
     height: 50rem;
 }
-.espacelogo .reveal [class*="inreveal-"] {
-    opacity: 1;
-    transform: translateY(30px);
-}
 
 .espacelogo [class*="inreveal-"] {
     opacity: 0 !important;
     transition: 1s cubic-bezier(.5, 0, 0, 1);
     transition-delay: 10s;
 }
-.espacelogo .reveal-1 {
+
+@keyframes inrevealAnimation {
+    0% {
     opacity: 0;
-    transition-delay: 5s;
-    transform: t;
+    transform: translateY(30px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0px);
+    }
 }
+
 /* Loading */
 #progress {
     position:absolute;
     bottom: 0;
-    position: fixed;S
+    position: fixed;
 }
 
 /* Rules & Conditions */
