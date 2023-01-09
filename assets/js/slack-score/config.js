@@ -69,5 +69,16 @@ export const LANG = {
         ['tank']: 'Tank',
         ['dps']: 'Dégat',
         ['heal']: 'Soin'
-    }
+    },
+    
+    ENCHANTABLE_SLOTS: {
+        ['back']: 'Cape :',
+        ['chest']: 'Torse :',
+        ['wrist']: 'Poignet :',
+        ['feet']: 'Pieds :',
+        ['mainhand']: 'Arme Droite :',
+        ['offhand']: 'Arme Gauche :',
+        ['finger1']: 'Doight :',
+        ['finger2']: 'Doight :',
+    },
 }

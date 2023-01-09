@@ -68,7 +68,7 @@
 }
 
 .run-not-completed {
-  color: darkblue !important;
+  color: rgb(91, 91, 92) !important;
   text-shadow: 4px 4px 4px rgb(1, 0, 2);
 }
 

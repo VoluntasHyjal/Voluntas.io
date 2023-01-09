@@ -68,7 +68,7 @@ const printEnchantments = (enchantments) =>
         const enchantClass = enchantments[slot] === 'No enchant' ? 'slack-enchant' : 'no-slack-enchant'
         return `
             <div>
-                <span class="modal-subsection-title" id="modif">${unslugSlot}</span>
+                <span class="modal-subsection-title" id="modif">${LANG.ENCHANTABLE_SLOTS[unslugSlot]}</span>
                 <span class="${enchantClass}">${enchantments[slot]}</span>
             </div>
         `;
