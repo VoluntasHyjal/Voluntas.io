@@ -109,7 +109,7 @@ const buildMythicPlusProgress = (mythicPlusBestRuns, score) => ({
             level: bestRun.mythic_level,
             completed: bestRun.num_keystone_upgrades > 0,
             score: bestRun.score
-        } : {
+        }: {
             name: dungeonName,
             completed: undefined,
         }
