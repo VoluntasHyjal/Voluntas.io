@@ -89,9 +89,9 @@ const buildJob = (primary) => {
     }
 }
 
-//raid_progression['vault-of-the-incarnates']
+
 const buildProgress = async (player) => await callApi(getPlayerProgressUrl(player), ({ raid_progression, mythic_plus_best_runs, mythic_plus_scores }) => {
-    const { total_bosses, normal_bosses_killed, heroic_bosses_killed, mythic_bosses_killed } = raid_progression
+    const { total_bosses, normal_bosses_killed, heroic_bosses_killed, mythic_bosses_killed } = raid_progression['vault-of-the-incarnates']
     return {
         totalBosses: total_bosses,
         normalProgress: normal_bosses_killed,
