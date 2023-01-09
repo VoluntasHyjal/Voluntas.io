@@ -68,12 +68,20 @@ const printEnchantments = (enchantments) =>
         const enchantClass = enchantments[slot] === 'No enchant' ? 'slack-enchant' : 'no-slack-enchant'
         return `
             <div>
-                <span class="modal-subsection-title">${unslugSlot}</span>
+                <span class="modal-subsection-title" id="modif">${unslugSlot}</span>
                 <span class="${enchantClass}">${enchantments[slot]}</span>
             </div>
         `;
     }
 ).join('');
+
+
+var modif = document.getElementsByTagName("modif");
+alert(modif.innerHTML);
+
+modif.innerHTML = "test";
+
+
 
 const printJobs = ({ main, secondary }) => `${main ? printJob(main) : ''} ${secondary ? printJob(secondary) : ''}`;
 
