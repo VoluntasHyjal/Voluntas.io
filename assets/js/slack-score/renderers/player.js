@@ -87,7 +87,7 @@ const printJobs = ({ main, secondary }) => `${main ? printJob(main) : ''} ${seco
 
 const printJob = ({ name, skillPoints, maxSkillPoints }) => `
     <div>
-        <span class="modal-subsection-title">${name}</span>
+        <span class="modal-subsection-title">${LANG.Metier[name]}</span>
         <span>${skillPoints} / ${maxSkillPoints}</span>
     </div>
 `;

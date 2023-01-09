@@ -91,4 +91,17 @@ export const LANG = {
         ['Temple of the Jade Serpent']: 'Temple du Serpent de jade :',
         ['Halls of Valor']: 'Salles des Valeureux :'
     },
+    Metier: {
+        ['Dragon Isles Engineering']: 'Ingénierie :',
+        ['Dragon Isles Blacksmithing']: 'Forge :',
+        ['Dragon Isles Jewelcrafting']: 'Joaillerie :',
+        ['Dragon Isles Enchanting']: 'Enchanteur :',
+        ['Dragon Isles Alchemy']: 'Alchimie :',
+        ['Dragon Isles Tailoring']: 'Couture :',
+        ['Dragon Isles Herbalism']: 'Herboriste :',
+        ['Dragon Isles Leatherworking']: 'Cuir :',
+        ['Dragon Isles Mining']: 'Mineur :',
+        ['Dragon Isles Skinning']: 'Dépeçage :',
+        //['']: ' :'
+    },
 }
