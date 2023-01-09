@@ -13,6 +13,9 @@ let filters = {
 export const renderGuild = ({ rosters, progress }) => {
     document.getElementById('progress').className += 'hidden'
     document.getElementById('roster_1').classList.remove('vulcan-hidden')
+    document.getElementById('rulenav').hidden = false;
+    document.getElementById('copyr').hidden = false;
+    document.getElementById('logohidden').hidden = true;
     document.getElementById('navid').hidden = false;
     document.getElementById('indexid').classList.remove('indexclass')
     document.getElementById('roster_2').classList.remove('vulcan-hidden')

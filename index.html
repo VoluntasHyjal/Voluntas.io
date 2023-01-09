@@ -82,39 +82,8 @@
 			</div>
 </nav>
 <div class="espacelogo">
-	<div class="logo"">
+	<div class="logo" id="logohidden">
 	<img src="./assets/images/GaleryImg/Logo.png" alt="">
-	</div>
-</div>
-<!-- Rules & Conditions -->
-<div class="rules" id="rulenav">
-		
-	<div class="table" id="ptable">
-		<div class="reveal-1" id="lgd"><h2>Les bonnes conditions</h2></div>
-				<div class="t1 reveal-2">
-					<button>Ilvl</button>
-					<p class="p2">L'ilvl minimum a été fixé à 290 (négociable)</p>
-				</div>
-				<div class="t3 reveal-3">
-					<button> Enchants & Conso. </button>
-					<p class="p2">Banquets et chaudrons peuvent être fournis par la guilde.<br>Chaque joueur doit avoir sa bouffe, ses flacons, et ses enchants</p>
-				</div>
-				<div class="t5 reveal-4">
-					<button> Strats </button>
-					<p class="p2">Les strats doivent être connus avant le raid !<br>Un rappel peut être effectué et des ajustements peuvent être réalisés par le RaidLeader<br></p>
-				</div>
-				<div class="t2 reveal-2">
-					<button> Horaires </button>
-					<p class="p2">Fenêtre de groupage à partir de 20h30, pull à 21h, puis fin de raid 23h30. <br> Toute absence ou retard doit être prévenu sur Discord.</p>
-				</div>
-				<div class="t4 reveal-3">
-					<button> Soirs de Raid </button>
-					<p class="p2">Deux raids sont organisés par semaine, le Mercredi et le Dimanche soir de 20h30 à 23h30</p>
-				</div>
-				<div class="t6 reveal-4">
-					<button> Absences & Retards </button>
-					<p class="p2">En cas d'absence, le concerné doit prévenir 48h à l'avance minimum via le canal Discord.<br>En cas d'asbence ou retard injustifié, votre place peut ne plus être réservée et risquez l'exclusion du roster.</p>
-				</div>
 	</div>
 </div>
 		<!-- Background video -->
@@ -165,6 +134,38 @@
 				<div id="roster_2_player_container" class="agileinfo-services-grids"></div>
 			</div>
 		</div>
+
+		<!-- Rules & Conditions -->
+<div class="rules" id="rulenav" hidden>
+		
+	<div class="table" id="ptable">
+		<div class="reveal-1" id="lgd"><h2>Les bonnes conditions</h2></div>
+				<div class="t1 reveal-2">
+					<button>Ilvl</button>
+					<p class="p2">L'ilvl minimum a été fixé à 290 (négociable)</p>
+				</div>
+				<div class="t3 reveal-3">
+					<button> Enchants & Conso. </button>
+					<p class="p2">Banquets et chaudrons peuvent être fournis par la guilde.<br>Chaque joueur doit avoir sa bouffe, ses flacons, et ses enchants</p>
+				</div>
+				<div class="t5 reveal-4">
+					<button> Strats </button>
+					<p class="p2">Les strats doivent être connus avant le raid !<br>Un rappel peut être effectué et des ajustements peuvent être réalisés par le RaidLeader<br></p>
+				</div>
+				<div class="t2 reveal-2">
+					<button> Horaires </button>
+					<p class="p2">Fenêtre de groupage à partir de 20h30, pull à 21h, puis fin de raid 23h30. <br> Toute absence ou retard doit être prévenu sur Discord.</p>
+				</div>
+				<div class="t4 reveal-3">
+					<button> Soirs de Raid </button>
+					<p class="p2">Deux raids sont organisés par semaine, le Mercredi et le Dimanche soir de 20h30 à 23h30</p>
+				</div>
+				<div class="t6 reveal-4">
+					<button> Absences & Retards </button>
+					<p class="p2">En cas d'absence, le concerné doit prévenir 48h à l'avance minimum via le canal Discord.<br>En cas d'asbence ou retard injustifié, votre place peut ne plus être réservée et risquez l'exclusion du roster.</p>
+				</div>
+	</div>
+</div>
 
 		<!-- testimonial -->
 		<div class="testimonial jarallax vulcan-hidden" id="raid-progress">
@@ -337,7 +338,7 @@
 		</div>
 
 		<!-- Footer -->
-		<div class="agileits-w3layouts-footer">
+		<div class="agileits-w3layouts-footer" id="copyr" hidden>
 			<div class="container">
 				<div class="agile-copyright">
 					<p>© Copyright 2022 Voluntas. All rights reserved | Design by <b>Deblox</b></p>
