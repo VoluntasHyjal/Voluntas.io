@@ -30,8 +30,9 @@ a {
     grid-template-areas: "lg2 lg1 lg3";
 }
 .logo {
+    position: relative;
     grid-area: lg1;
-    height: 50em;
+    height: 5px;
 }
 
 /* Rules & Conditions */
@@ -232,3 +233,32 @@ a {
         top: 90px;
     }
 }   
+@media screen and (max-width: 1000px) {
+    #progress-label .espacelogo {
+        display:grid;
+        position: absolute;
+        top: 18rem;
+        grid-template-columns: 3fr 1fr 3fr;
+    }
+    #progress-label img {
+        height: 300px;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 620px) {
+
+    #progress-label img {
+        height: 250px;
+        align-content: center;
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+    #progress-label img {
+        height: 150px;
+        align-content: center;
+    }
+
+}

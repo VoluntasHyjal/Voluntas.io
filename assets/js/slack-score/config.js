@@ -20,7 +20,7 @@ export const PLAYERS_ROSTER_1 = [
 ]
 
 export const PLAYERS_ROSTER_2 = [
-    {name: 'deblox', role: 'dps'},
+    {name: 'deblodx', role: 'dps'},
     {name: 'desiignerz', role: 'dps'},
     {name: 'heldenbrand', role: 'dps'},
     {name: 'natsukazam', role: 'dps'},
