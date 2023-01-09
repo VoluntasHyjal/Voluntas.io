@@ -110,17 +110,17 @@ const printRaidProgress = ({ totalBosses, normalProgress, heroicProgress, mythic
 const printMythicPlusProgress = ({ mythicPlusProgress }) => {
     const dungeonHTML = mythicPlusProgress.bestRuns.map(run => {
         if (run.completed !== undefined) {
-            const runClass = run.completed ? 'run-completed' : 'run-not-completed';
+            const runClass = run.completed ? 'run-completed' : 'run-not-completed'; run.name
             return `
                 <div>
-                    <span class="modal-subsection-title">${run.name}</span>
+                    <span class="modal-subsection-title">${LANG.RUNE_NAMEFR[run.name]}</span>
                     <span class="${runClass}">+${run.level} (${run.score})</span>
                 </div>
             `;
         }
         return `
             <div>
-                <span class="modal-subsection-title">${run.name}</span>
+                <span class="modal-subsection-title">${LANG.RUNE_NAMEFR[run.name]}</span>
                 <span>Not completed yet</span>
             </div>
         `;

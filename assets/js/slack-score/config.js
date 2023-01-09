@@ -81,4 +81,14 @@ export const LANG = {
         ['finger1']: 'Doight :',
         ['finger2']: 'Doight :',
     },
+    RUNE_NAMEFR: {
+        ['Algeth\'ar Academy']: 'Académie d\'Algeth\'ar:',
+        ['Ruby Life Pools']: 'Bassins de l\'Essence rubis :',
+        ['The Azure Vault']: 'Le Caveau d\'Azur :',
+        ['Court of Stars']: 'Cour des Étoiles :',
+        ['Shadowmoon Burial Grounds']: 'Terres sacrées d\'Ombrelune :',
+        ['The Nokhud Offensive']: 'L\'offensive Nokhud :',
+        ['Temple of the Jade Serpent']: 'Temple du Serpent de jade :',
+        ['Halls of Valor']: 'Salles des Valeureux :'
+    },
 }
