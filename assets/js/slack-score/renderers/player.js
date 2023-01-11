@@ -75,14 +75,6 @@ const printEnchantments = (enchantments) =>
     }
 ).join('');
 
-
-var modif = document.getElementsByTagName("modif");
-alert(modif.innerHTML);
-
-modif.innerHTML = "test";
-
-
-
 const printJobs = ({ main, secondary }) => `${main ? printJob(main) : ''} ${secondary ? printJob(secondary) : ''}`;
 
 const printJob = ({ name, skillPoints, maxSkillPoints }) => `
