@@ -22,17 +22,20 @@ a {
 .espacelogo .logo .reveal-logo {
     transition-delay: 1s;
 }
-
 .espacelogo {
     display: grid;
-    position: absolute;
+    position: fixed;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "lg2 lg1 lg3";
+    margin: 0;
 }
 .logo {
-    position: relative;
+    display: flex;
     grid-area: lg1;
-    height: 5px;
+    justify-content: center;
+}
+.taillelogo {
+    height: 500px;
 }
 
 /* Rules & Conditions */
@@ -220,45 +223,80 @@ a {
         top: 90px;
         left: 5px;
     }
+    
 }
 
 @media screen and (max-width:1050px) {
     .table {
         display: block;
     }
-    .espacelogo{
-        height: 3em;
-    }
+
     .callbacks_nav {
         top: 90px;
     }
 }   
 @media screen and (max-width: 1000px) {
-    #progress-label .espacelogo {
-        display:grid;
-        position: absolute;
-        top: 18rem;
-        grid-template-columns: 3fr 1fr 3fr;
+    .espacelogo .logo .reveal-logo {
+        transition-delay: 1s;
     }
-    #progress-label img {
+    .espacelogo {
+        
+        display: grid;
+        position: fixed;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        grid-template-areas: "lg2 lg1 lg3";
+        margin: 0;
+    }
+    .logo {
+        display: flex;
+        grid-area: lg1;
+        justify-content: center;
         height: 300px;
-        text-align: center;
+    }
+    .taillelogo {
+        height: 350px;
     }
 
 }
-@media screen and (max-width: 620px) {
 
-    #progress-label img {
+@media screen and (max-width:565px) {
+    .espacelogo .logo .reveal-logo {
+        transition-delay: 1s;
+    }
+    .espacelogo {
+        display: grid;
+        position: fixed;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "lg2 lg1 lg3";
+        margin: 0;
+    }
+    .logo {
+        display: flex;
+        grid-area: lg2;
+        justify-content: center;
+        height: 300px;
+    }
+    .taillelogo {
         height: 250px;
-        align-content: center;
+        margin: 10px ;
     }
-
 }
-@media screen and (max-width: 450px) {
-
-    #progress-label img {
+@media screen and (max-width:470px) {
+    .taillelogo {
+        height: 200px;
+        margin: 10px ;
+    }   
+}
+@media screen and (max-width:360px) {
+    .taillelogo {
         height: 150px;
-        align-content: center;
-    }
-
+        margin: 10px ;
+    }   
+}
+@media screen and (max-width:240px) {
+    .taillelogo {
+        transform: translateY(10%);
+        height: 100px;
+        margin: 10px ;
+    }   
 }

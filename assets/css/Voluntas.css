@@ -18,12 +18,9 @@ a {
     text-decoration: none;
 }
 
-#background-video {
-    position:absolute;
-    height: 100%;
-    width: 100%;
+body #background-video {
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;

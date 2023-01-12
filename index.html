@@ -57,6 +57,10 @@
 		</script>
 	</head>
 	<body id="indexid" class="indexclass">
+				<!-- Background video -->
+				<video id="background-video" autoplay loop muted>
+					<source src="./assets/Video/background.mp4" type="video/mp4">
+				</video>
 		
 		<!-- Loading -->
 		<div id="progress">
@@ -81,15 +85,13 @@
 				<a id="discord" href="https://discord.gg/6c3wGTFg9n" target="_blank">Discord</a>
 			</div>
 </nav>
+<div class="placementlogo">
 <div class="espacelogo">
 	<div class="logo" id="logohidden">
-	<img src="./assets/images/GaleryImg/Logo.png" alt="">
+	<img class="taillelogo" src="./assets/images/GaleryImg/Logo.png" alt="">
 	</div>
 </div>
-		<!-- Background video -->
-		<video id="background-video" autoplay loop muted>
-			<source src="./assets/Video/background.mp4" type="video/mp4">
-		</video>
+</div>
 
 		<!-- Filters -->
 		<div id="filters" class="vulcan-hidden filters" hidden>
@@ -169,7 +171,7 @@
 
 		<!-- testimonial -->
 		<div class="testimonial jarallax vulcan-hidden" id="raid-progress">
-			<div class="testimonial">
+			<div class="testimonial"> <img src="./assets/images/GaleryImg/BGRaid.jpg" alt="">
 				<div class="w3-agileits-testimonial">
 					<div class="container">
 						<!-- <h3>Castle Nathria</h3> -->
@@ -366,7 +368,6 @@
 				$().UItoTop({ easingType: 'easeOutQuart' });
 			});
 		</script>
-		<script type="module" src="./assets/js/modfi.js" defer></script>
 		<script type="module" src="./assets/js/slack-score/main.js"></script>
 	</body>
 </html>
