@@ -131,7 +131,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  webkit-appearance: button;
   cursor: pointer;
 }
 button[disabled],
@@ -4418,7 +4418,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: rgb(255, 255, 255)255, 255, 255);
+  color: rgb(255, 255, 255)255, 255, 255;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
