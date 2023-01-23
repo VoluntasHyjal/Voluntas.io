@@ -18,7 +18,8 @@ const RIO_HOST = 'https://raider.io/api/v1'
 export const getPlayerProgressUrl = (player) => `https://raider.io/api/v1/characters/profile?region=${REGION}&realm=${REALM}&name=${player}&fields=raid_progression,mythic_plus_best_runs:all,mythic_plus_scores`
 export const getGuildRaidProgressUrl = (boss, mode) => `${RIO_HOST}/guilds/boss-kill?region=${REGION}&realm=${REALM}&guild=${GUILD}&raid=${CURRENT_PROGRESS}&boss=${boss}&difficulty=${mode}`
 
-export const jsonFetch = (url, params = { method: 'GET' }) => fetch(url, params).then(response => response.json()).catch(err => alert(err))
+export const jsonFetch = (url, params = { method: 'GET' }) => fetch(url, params).then(response => response.json())
+//.catch(err => alert(err))
 
 export const callApi = async (url, callback) => {
     if (callApi.PROGRESS_BAR === undefined)

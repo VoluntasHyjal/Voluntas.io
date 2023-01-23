@@ -66,6 +66,7 @@ const printEnchantments = (enchantments) =>
 
         const unslugSlot = slot.toLowerCase().replace('_', '')
         const enchantClass = enchantments[slot] === 'No enchant' ? 'slack-enchant' : 'no-slack-enchant'
+        console.log(enchantments[slot].split(''))
         return `
             <div>
                 <span class="modal-subsection-title" id="modif">${LANG.ENCHANTABLE_SLOTS[unslugSlot]}</span>
@@ -77,7 +78,7 @@ const printEnchantments = (enchantments) =>
 
 
 var modif = document.getElementsByTagName("modif");
-alert(modif.innerHTML);
+//alert(modif.innerHTML);
 
 modif.innerHTML = "test";
 
