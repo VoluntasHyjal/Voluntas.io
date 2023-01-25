@@ -11,8 +11,8 @@ iframe {
     position: absolute;
     width: 90%;
     top: 3rem;
-    left: 10rem;
-    right: 10rem ;
+    left: 5%;
+    right: 5%;
     height: -webkit-fill-available;
     border-top: 3px solid rgb(0, 110, 187);
 }
