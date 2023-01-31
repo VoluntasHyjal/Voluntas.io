@@ -66,8 +66,6 @@ const printEnchantments = (enchantments) =>
 
         const unslugSlot = slot.toLowerCase().replace('_', '')
         const enchantClass = enchantments[slot] === 'No enchant' ? 'slack-enchant' : 'no-slack-enchant'
-        var regex = ("A:Professions-Icon-Quality-Tier1-Smalld:20:20", "i")
-        console.log(regex.test(enchantments))
         return `
             <div>
                 <span class="modal-subsection-title" id="modif">${LANG.ENCHANTABLE_SLOTS[unslugSlot]}</span>
