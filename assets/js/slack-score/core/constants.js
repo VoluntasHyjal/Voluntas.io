@@ -2,12 +2,12 @@ import { slug } from './string.js'
 
 export const CURRENT_PROGRESS_BOSS = [
     'Eranog',
-    'Sennarth the Cold Breath',
-    'The Primal Council',
     'Terros',
+    'The Primal Council',
+    'Sennarth the Cold Breath',
     'Kurog Grimtotem',
-    'Broodkeeper Diurna',
     'Dathea Ascended',
+    'Broodkeeper Diurna',
     'Raszageth the-stormeater',
     //'Dathea, Ascended',
     //'Stone Legion Generals',
