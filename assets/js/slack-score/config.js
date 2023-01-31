@@ -11,29 +11,26 @@ export const ILVL_THRESHOLD = 390
 export const SLACK_SCORE_THRESHOLD = 3
 
 export const PLAYERS_ROSTER_1 = [
-    {name: 'eltelas', role: 'tank'},
-    {name: 'heathcliff', role: 'tank'}, 
+    {name: 'khazaan', role: 'tank'},
     {name: 'arianaël', role: 'heal'},
-    {name: 'kymiky', role: 'heal'},
-    {name: 'skylòrg', role: 'heal'},
-    {name: 'fîaratsu', role: 'heal'},
+    {name: 'farmonly', role: 'heal'},
+    {name: 'shadomasou', role: 'heal'},
 ]
 
 export const PLAYERS_ROSTER_2 = [
     {name: 'deblox', role: 'dps'},
+    {name: 'galdæn', role: 'dps'},
     {name: 'desiignerz', role: 'dps'},
     {name: 'heldenbrand', role: 'dps'},
-    {name: 'natsukazam', role: 'dps'},
-    {name: 'sakozinhoo', role: 'dps'},
-    {name: 'shadomasou', role: 'dps'},
-    {name: 'kosmozen', role: 'dps'},
-    {name: 'thalija', role: 'dps'},
-    {name: 'kelthomonk', role: 'dps'},
-    {name: 'galdæn', role: 'dps'},
+    {name: 'vélias', role: 'dps'},
+    {name: 'sinddra', role: 'dps'},
+    {name: 'amøtt', role: 'dps'},
+    {name: 'veñruki', role: 'dps'},
+    {name: 'coretix', role: 'dps'},
+    {name: 'tai', role: 'dps'},
     {name: 'scripto', role: 'dps'},
-    {name: 'gräoü', role: 'dps'},
-    // {name: 'tyänna', role: 'dps'},
-    // {name: 'universis', role: 'dps'},
+    {name: 'faylie', role: 'dps'},
+    {name: 'fracask', role: 'dps'},
 ]
 
 export const LANG = {
@@ -46,9 +43,6 @@ export const LANG = {
         ['Kurog Grimtotem']: 'Kurog Totem-Sinistre',
         ['Broodkeeper Diurna']: 'Garde-couvée Diurna',
         ['Raszageth the-stormeater']: 'Raszageth la Mange-tempêtes',
-        // ['Dathea, Ascended']: '',
-        // ['Stone Legion Generals']: '',
-        // ['Sire Denathrius']: ''
     },
     PLAYER_CLASS: {
         ['Chasseur']: 'hunter',
