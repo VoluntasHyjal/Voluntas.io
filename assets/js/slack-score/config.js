@@ -11,7 +11,8 @@ export const ILVL_THRESHOLD = 390
 export const SLACK_SCORE_THRESHOLD = 3
 
 export const PLAYERS_ROSTER_1 = [
-    {name: 'khazaan', role: 'tank'},
+    {name: 'vanii', role: 'tank'},
+    {name: 'metaxas', role: 'tank'},
     {name: 'arianaël', role: 'heal'},
     {name: 'farmonly', role: 'heal'},
     {name: 'shadomasou', role: 'heal'},
