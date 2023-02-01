@@ -69,10 +69,19 @@ const printEnchantments = (enchantments) =>
         const enchantClass = enchantments[slot] === 'No enchant' ? 'slack-enchant' : 'no-slack-enchant'
         var test1 = enchantments[slot].toLowerCase().replace(replacei, '')
 
+
+        var replaceimg = enchantments[slot].toLowerCase().replace(/[\s]+$/, '').split(/[\s]/).pop()
+        var rimg = replaceimg.replace('|a:professions-icon-quality-tier', '')
+        var rimgi = rimg.replace('-small:20:20|a', '')
+        var rimgir = rimgi.replace('enchant', '')
+       // <script>
+       // document.getElementById(enchantClass).replace
+       // </script>
+
         return `
             <div>
                 <span class="modal-subsection-title" id="modif">${LANG.ENCHANTABLE_SLOTS[unslugSlot]}</span>
-                <span class="${enchantClass}">${test1}</span>
+                <span class="${enchantClass}">${test1} Qualité ${rimgir}</span>
             </div>
         `;
     }
