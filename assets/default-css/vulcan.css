@@ -28,7 +28,9 @@
   width: 300%;
   margin: -38% -95%;
 }
-
+#enchantsize {
+  font-size: 1.1rem;
+}
 .modal-body p.title {
   text-transform: uppercase;
   color: rgb(0,110,187);
