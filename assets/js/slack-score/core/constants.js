@@ -33,7 +33,7 @@ export const ENCHANTABLE_SLOTS = [
     'WRIST',
     'FEET',
     'MAIN_HAND',
-    'OFF_HAND',
+    //'OFF_HAND',
     'FINGER_1',
     'FINGER_2',
 ]
