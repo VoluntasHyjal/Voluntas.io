@@ -73,8 +73,8 @@ export const LANG = {
         ['feet']: 'Pieds :',
         ['mainhand']: 'Arme Droite :',
         ['offhand']: 'Arme Gauche :',
-        ['finger1']: 'Doight :',
-        ['finger2']: 'Doight :',
+        ['finger1']: 'Doigt :',
+        ['finger2']: 'Doigt :',
     },
     RUNE_NAMEFR: {
         ['Algeth\'ar Academy']: 'Académie d\'Algeth\'ar:',
