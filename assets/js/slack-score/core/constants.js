@@ -3,7 +3,7 @@ import { slug } from './string.js'
 export const CURRENT_PROGRESS_BOSS = [
         'Kazzara',
         'The Amalgamation Chamber',
-        'The Forgotten Experiments,
+        'The Forgotten Experiments',
         'Assault of the Zaqali',
         'Rashok, the Elder',
         'Zskarn',
