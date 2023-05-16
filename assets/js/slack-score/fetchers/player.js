@@ -28,7 +28,7 @@ const buildProfile = async (player, token) => await callApi(getPlayerProfileUrl(
 const buildAvatar = async (player, token) => await callApi(getPlayerAvatarUrl(player, token), ({ assets }) => ({
     avatar: assets[0].value,
     main: assets[2].value,
-    mainRaw: assets[3].value,
+  //mainRaw: assets[3].value,
 }))
 
 const buildEquipment = async (player, token) => {
