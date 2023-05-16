@@ -5,7 +5,7 @@ export const CURRENT_PROGRESS_BOSS = [
         'The Amalgamation Chamber',
         'The Forgotten Experiments,
         'Assault of the Zaqali',
-       'Rashok, the Elder'',
+        'Rashok, the Elder'',
         'Zskarn',
         'Echo of Neltharion',
         'Scalecommander Sarkareth',
