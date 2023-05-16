@@ -30,15 +30,17 @@ export const PLAYERS_ROSTER_2 = [
 
 export const LANG = {
     BOSS: {
-        ['Eranog']: 'Éranog',
-        ['Terros']: 'Terros',
-        ['The Primal Council']: 'Le Conseil primordial',
-        ['Sennarth the Cold Breath']: 'Sennarth, la Glaciale',
-        ['Dathea Ascended']: 'Dathéa, transcendée',
-        ['Kurog Grimtotem']: 'Kurog Totem-Sinistre',
-        ['Broodkeeper Diurna']: 'Garde-couvée Diurna',
-        ['Raszageth the-stormeater']: 'Raszageth la Mange-tempêtes',
+        ['Kazzara']: 'Kazzara',
+        ['The Amalgamation Chamber']: 'La Chambre d Amalgamation',
+        ['The Forgotten Experiments']: 'les Expériences Oubliés',
+        ['Assault of the Zaqali']: 'Assaut des Zaqali',
+        ['Rashok, the Elder']: 'Rashok',
+        ['Zskarn']: 'Zskarn',
+        ['Echo of Neltharion']: 'Echo de Neltharion',
+        ['Scalecommander Sarkareth']: 'Sarkareth',
     },
+    
+
     PLAYER_CLASS: {
         ['Chasseur']: 'hunter',
         ['Démoniste']: 'warlock',
