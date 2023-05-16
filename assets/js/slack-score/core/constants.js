@@ -4,7 +4,6 @@ export const CURRENT_PROGRESS_BOSS = [
         'Kazzara',
         'The Amalgamation Chamber',
         'The Forgotten Experiments,
-        'Assault of the Zaqali',
         'Rashok, the Elder'',
         'Zskarn',
         'Echo of Neltharion',
