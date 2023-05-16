@@ -2,36 +2,30 @@ export const REGION = 'eu'
 export const REALM = 'hyjal'
 export const GUILD = 'voluntas'
 export const LOCALE = 'fr_FR'
-export const CURRENT_PROGRESS = 'vault-of-the-incarnates'
+export const CURRENT_PROGRESS = 'Aberrus, the Shadowed'
 
-export const BNET_CLIENT_ID = '14daacc6d3b048bcaffe958d978e47b5'
-export const BNET_CLIENT_SECRET = 'FgeSWpfnikgT8O77WxWslZJFq7pKxYwR'
+export const BNET_CLIENT_ID = 'cbd546c0442d4143adc1376391de97cd'
+export const BNET_CLIENT_SECRET = 'sk4JmPULRJ5BcTv1aKmxFhl0Qr9i95ux'
 
-export const ILVL_THRESHOLD = 390
+export const ILVL_THRESHOLD = 315
 export const SLACK_SCORE_THRESHOLD = 3
 
 export const PLAYERS_ROSTER_1 = [
-    {name: 'vanii', role: 'tank'},
-    //{name: 'Metaxas', role: 'tank'},
+    //{name: 'erendir', role: 'tank'},
+    {name: 'niàrk', role: 'tank'},
     {name: 'arianaël', role: 'heal'},
-    {name: 'farmonly', role: 'heal'},
-    {name: 'shadomasou', role: 'heal'},
+    {name: 'heldenbrand', role: 'heal'},
+    {name: 'søøwøn', role: 'heal'}
 ]
 
 export const PLAYERS_ROSTER_2 = [
-    {name: 'deblox', role: 'dps'},
-    {name: 'galdæn', role: 'dps'},
-    {name: 'desiignerz', role: 'dps'},
-    {name: 'heldenbrand', role: 'dps'},
-    {name: 'vélias', role: 'dps'},
-    {name: 'sinddra', role: 'dps'},
     {name: 'amøtt', role: 'dps'},
-    {name: 'veñruki', role: 'dps'},
+    //{name: 'azeld', role: 'dps'},
     {name: 'coretix', role: 'dps'},
-    {name: 'tai', role: 'dps'},
-    {name: 'scripto', role: 'dps'},
-    {name: 'faylie', role: 'dps'},
-    {name: 'fracask', role: 'dps'},
+    {name: 'galdæn', role: 'dps'},
+    {name: 'vélias', role: 'dps'},
+    {name: 'ipàw', role: 'dps'}
+   // {name: 'amøtt', role: 'dps'}
 ]
 
 export const LANG = {
