@@ -1,17 +1,14 @@
 import { slug } from './string.js'
 
 export const CURRENT_PROGRESS_BOSS = [
-    'Eranog',
-    'Terros',
-    'The Primal Council',
-    'Sennarth the Cold Breath',
-    'Kurog Grimtotem',
-    'Dathea Ascended',
-    'Broodkeeper Diurna',
-    'Raszageth the-stormeater',
-    //'Dathea, Ascended',
-    //'Stone Legion Generals',
-    //'Sire Denathrius'
+        'Kazzara',
+        'The Amalgamation Chamber',
+        'The Forgotten Experiments,
+        'Assault of the Zaqali',
+       'Rashok, the Elder'',
+        'Zskarn',
+        'Echo of Neltharion',
+        'Scalecommander Sarkareth',
 ]
 
 export const CURRENT_PROGRESS_BOSS_SLUGS = CURRENT_PROGRESS_BOSS.map(boss => slug(boss))
