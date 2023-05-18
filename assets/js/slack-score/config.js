@@ -11,7 +11,7 @@ export const ILVL_THRESHOLD = 315
 export const SLACK_SCORE_THRESHOLD = 3
 
 export const PLAYERS_ROSTER_1 = [
-    //{name: 'erendir', role: 'tank'},
+    {name: 'erindir', role: 'tank'},
     {name: 'niàrk', role: 'tank'},
     {name: 'arianaël', role: 'heal'},
     {name: 'heldenbrand', role: 'heal'},
@@ -20,12 +20,12 @@ export const PLAYERS_ROSTER_1 = [
 
 export const PLAYERS_ROSTER_2 = [
     {name: 'amøtt', role: 'dps'},
-    //{name: 'azeld', role: 'dps'},
+    {name: 'æzeld', role: 'dps'},
     {name: 'coretix', role: 'dps'},
     {name: 'galdæn', role: 'dps'},
     {name: 'vélias', role: 'dps'},
-    {name: 'ipàw', role: 'dps'}
-   // {name: 'amøtt', role: 'dps'}
+    {name: 'ipàw', role: 'dps'},
+    {name: 'amøtt', role: 'dps'}
 ]
 
 export const LANG = {
