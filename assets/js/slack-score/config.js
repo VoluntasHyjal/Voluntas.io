@@ -24,8 +24,7 @@ export const PLAYERS_ROSTER_2 = [
     {name: 'coretix', role: 'dps'},
     {name: 'galdæn', role: 'dps'},
     {name: 'vélias', role: 'dps'},
-    {name: 'ipàw', role: 'dps'},
-    {name: 'amøtt', role: 'dps'}
+    {name: 'ipàw', role: 'dps'}
 ]
 
 export const LANG = {
