@@ -2,7 +2,7 @@ export const REGION = 'eu'
 export const REALM = 'hyjal'
 export const GUILD = 'voluntas'
 export const LOCALE = 'fr_FR'
-export const CURRENT_PROGRESS = 'aberrus,the shadowed crucible'
+export const CURRENT_PROGRESS = 'aberrus,the-shadowed-crucible'
 
 export const BNET_CLIENT_ID = 'cbd546c0442d4143adc1376391de97cd'
 export const BNET_CLIENT_SECRET = 'sk4JmPULRJ5BcTv1aKmxFhl0Qr9i95ux'
